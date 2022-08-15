@@ -137,13 +137,13 @@
 <repository>
 <id>nexus</id>
 <name>releaserepo</name>
-<url>http://localhost:8081/repository/maven-feb-release-2021/</url>
+<url>http://13.233.85.92:8081/repository/maven-releases/</url>
 </repository>
 
 <snapshotRepository>
 <id>nexus</id>
 <name>snapshotrepo</name>
-<url>http://localhost:8081/repository/maven-feb-snapshot-2021/</url>
+<url>http://13.233.85.92:8081/repository/maven-snapshots/</url>
 </snapshotRepository>
  
 </distributionManagement>
@@ -153,7 +153,7 @@
  <repository> 
 <id>nexus</id>
 <name>remoterepo</name>
-<url>http://localhost:8081/repository/maven-feb2021-private-repo/</url>
+<url>http://13.233.85.92:8081/repository/maven-private-repo/</url>
 </repository>
 </repositories>
 
